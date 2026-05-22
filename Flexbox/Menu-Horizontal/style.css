@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font: bold 16px Arial;
+    background-color: #ebebeb;
+    
+}
+header{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 3px 3px 12px rgba(128, 122, 122, 0.904);
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+ul li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    color: #072cfa;
+    text-decoration: underline;
+}

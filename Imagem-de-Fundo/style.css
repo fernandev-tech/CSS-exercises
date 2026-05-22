@@ -1,0 +1,14 @@
+body{
+   background-image: url(images/fernandev.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+/*
+body{
+ background: url('images/fernandev.png') center / cover  no-repeat;
+ height: 100vh;
+
+}*/

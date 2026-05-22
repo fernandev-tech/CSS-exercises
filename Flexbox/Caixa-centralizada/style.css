@@ -1,0 +1,11 @@
+body{
+    height: 100vh;
+}
+div{
+    width: 200px;
+    margin: 10px auto;
+    padding: 30px;
+    text-align: center;
+    background-color: green;
+    color: white;
+}
