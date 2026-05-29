@@ -1,28 +1,34 @@
-body{
+body {
     font: normal 16px Arial;
     background-color: #ebebeb;
 }
-.container{
+
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
 
-button{
-    padding: 10px;
+button {
+    /*Modificado: */
+    padding: 10px 20px;
     border-radius: 10px;
-    width: 100%;
+    /* Antes: Remove o width: 100%; porque os botões ficavam gigantes na tela. E Cada botão tenta ocupar: 100% do espaço disponível.*/
     font-weight: bold;
     letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
 
 
 }
-.salvar{
+
+.salvar {
     background-color: green;
     color: white;
 }
-.cancelar{
+
+.cancelar {
     background-color: rgb(221, 23, 23);
     color: white;
 }

@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #ebebeb;
     font: normal 16px Arial;
     display: flex;
@@ -6,24 +6,37 @@ body{
     align-items: center;
     height: 100vh;
 }
-.card{
+
+.card {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 400px;
+    /*Melhorias: gap: 15px para que os elementos não fiquem colados*/
+    gap: 15px;
+    /*adaptando em telas pequenas*/
+    width: 100%;
+    max-width: 400px;
     background-color: white;
     border-radius: 10px;
     padding: 10px;
 
 }
-img{
+
+/*Melhorias: Textos longos:
+geralmente são melhores alinhados à esquerda.*/
+.card p {
+    text-align: left;
+}
+
+img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
 }
-button{
+
+button {
     background-color: green;
     color: white;
     padding: 10px;
@@ -31,6 +44,7 @@ button{
     border-radius: 10px;
     width: 100%;
 }
-button:hover{
+
+button:hover {
     background-color: #4ff04f;
 }

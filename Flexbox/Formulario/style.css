@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ebebeb;
+    font: normal 16px Arial;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: white;
+    /*O padding aqui empurra os elementos para não ficarem colados com a caixa ou card*/
+    padding: 20px;
+    width: 300px;
+    box-shadow: 3px 3px 6px black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    /* Usei width: 100% porque o input tem largura de 100%. E o label para estar alinhado na mesma direção que o input, precisa ter a mesma largura que o input tem. E sem esquecer, é necessário que o label esteja alinhado à esquerda.
+    Se por exemplo o input fosse de 200px, o label também seria de 200px e sem esquecer o text.align: left*/
+    width: 100%;
+    text-align: left;
+}
+
+input,
+button {
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+input {
+    background-color: #faf5f5;
+    outline: none;
+}
+
+button {
+    background-color: #006eff;
+    color: white;
+    font-weight: bold;
+    border: 2px solid blue;
+    transition: transform 0.3s ease;
+    box-shadow: 3px 3px 8px rgb(10, 127, 236);
+}
+
+button:hover {
+    background-color: #006effde;
+}
+
+.links {
+    /*Muito importante! Ao usar esta div, não pode faltar o width e o padding senão o justify-content: space-between ou center e gap podem falhat*/
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
